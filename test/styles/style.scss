@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import './base/vars';
+@import './base/base';
+
+//blocks====
+@import './blocks/header';
+@import './blocks/breadcrumbs';
+@import './blocks/catalog';
+@import './blocks/vacation';
+@import './blocks/reasons';
+@import './blocks/yandex-map';
+@import './blocks/feedback';
+@import './blocks/footer';
+
+@font-face {
+   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+   font-family: "TTNorms-Medium"; 
+   // адрес шрифта и тип 
+   src: url("../fonts/TTNorms-Medium.ttf") format("truetype"); 
+   font-style: normal; 
+   font-weight: normal; 
+ } 

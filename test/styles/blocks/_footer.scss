@@ -1,0 +1,141 @@
+.footer {
+   height: 200px;
+   background: rgba(41, 39, 33, 1);
+
+   // .footer__container
+
+   &__container {
+      padding: 70px 20px 45px 20px;
+   }
+
+   // .footer__content
+
+   &__content {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+   }
+
+   // .footer__btn
+
+   &__btn {
+      margin: 0;
+   }
+
+   // .footer__info
+
+   &__info {
+      display: flex;
+      flex-direction: column;
+      font-family: var(--font-accent);
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 33.8px;
+      text-align: right;
+      gap: 35px;
+      a {
+         color: #fff;
+      }
+   }
+
+   a:not(.footer__phone) {
+      text-decoration: underline;
+      &:hover {
+         text-decoration: none;
+      }
+   }
+
+   // .footer__terms
+   &__terms {
+      //styleName: ссылка;
+      font-family: var(--font-accent);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: right;
+      text-decoration: underline;
+      color: #fff;
+   }
+}
+
+@media (max-width: 768px) {
+   .footer {
+      height: 169px;
+      background: rgba(41, 39, 33, 1);
+
+      // .footer__container
+
+      &__container {
+         padding: 39px 26px 39px 26px;
+      }
+   }
+}
+
+@media (max-width: 425px) {
+   .footer {
+      height: 272px;
+      background: rgba(41, 39, 33, 1);
+
+      // .footer__container
+
+      &__container {
+         padding: 40px 16px 40px 16px;
+      }
+
+      // .footer__content
+
+      &__content {
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         flex-direction: column;
+         align-items: center;
+         gap: 30px;
+      }
+
+      // .footer__btn
+
+      &__btn {
+         width: 288px;
+         height: 56px;
+         margin: 0;
+      }
+
+      // .footer__info
+
+      &__info {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         font-family: var(--font-accent);
+         font-size: 26px;
+         font-weight: 500;
+         line-height: 33.8px;
+         text-align: center;
+         gap: 35px;
+         a {
+            color: #fff;
+         }
+      }
+
+      a:not(.footer__phone) {
+         text-decoration: underline;
+         &:hover {
+            text-decoration: none;
+         }
+      }
+
+      // .footer__terms
+      &__terms {
+         //styleName: ссылка;
+         font-family: var(--font-accent);
+         font-size: var(--text-link-size);
+         font-weight: 400;
+         line-height: 16px;
+         text-align: center;
+         text-decoration: underline;
+         color: #fff;
+      }
+   }
+}

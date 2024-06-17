@@ -1,0 +1,214 @@
+.reasons {
+   // .reasons__container
+   margin-bottom: 120px;
+   &__container {
+   }
+
+   // .reasons__content
+
+   &__content {
+   }
+
+   // .reasons__title
+
+   &__title {
+      margin-bottom: 40px;
+      //styleName: Заголовок 2;
+      font-family: var(--font-title);
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 60.5px;
+      text-align: left;
+   }
+
+   // .reasons__block
+
+   &__block {
+      display: flex;
+      align-items: center;
+      gap: 65px;
+   }
+
+   // .reasons__list
+
+   &__list {
+      width: 564px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      //flex: 1;
+   }
+
+   // .reasons__item
+
+   &__item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      //styleName: основной;
+      font-family: var(--font-accent);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30.6px;
+      text-align: left;
+      gap: 15px;
+      &:before {
+         content: url("data:image/svg+xml,%3Csvg width='27' height='29' viewBox='0 0 27 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8948 1.40797e-06L-1.90735e-06 2.36042e-06L-8.84347e-07 11.7018C-4.68193e-07 16.462 1.81098 20.7873 4.72864 23.9211C7.6463 27.0549 11.6733 29 16.1052 29L27 29L27 17.2982C27 12.538 25.189 8.21269 22.2714 5.07891C19.3537 1.94513 15.3267 1.02051e-06 10.8948 1.40797e-06ZM5.81894 6.24998L10.8948 6.24998C13.7204 6.24998 16.2913 7.49388 18.1571 9.49784C20.0229 11.5018 21.181 14.2632 21.181 17.2981L21.181 22.7499L16.1052 22.7499C13.2795 22.7499 10.7086 21.506 8.84281 19.5021C6.97706 17.4981 5.81894 14.7367 5.81894 11.7018L5.81894 6.24998Z' fill='%231A7440'/%3E%3C/svg%3E%0A");
+         width: 27px;
+         height: 29px;
+         left: 0;
+      }
+
+      // .reasons__img
+   }
+   &__img {
+      width: 570px;
+      //flex: 1;
+   }
+}
+
+@media (max-width: 768px) {
+   .reasons {
+      // .reasons__container
+      margin-bottom: 60px;
+      &__container {
+      }
+
+      // .reasons__content
+
+      &__content {
+      }
+
+      // .reasons__title
+
+      &__title {
+         margin-bottom: 30px;
+         //styleName: Заголовок 2;
+         font-family: var(--font-title);
+         font-size: 40px;
+         font-weight: 700;
+         line-height: 44px;
+         text-align: left;
+      }
+
+      // .reasons__block
+
+      &__block {
+         width: 100%;
+         position: relative;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         gap: 30px;
+      }
+
+      // .reasons__list
+
+      &__list {
+         width: 712px;
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+      }
+
+      // .reasons__item
+
+      &__item {
+         position: relative;
+         display: flex;
+         align-items: center;
+         //styleName: основной;
+         font-family: var(--font-accent);
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 30.6px;
+         text-align: left;
+         gap: 15px;
+         &:before {
+            content: url("data:image/svg+xml,%3Csvg width='27' height='29' viewBox='0 0 27 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8948 1.40797e-06L-1.90735e-06 2.36042e-06L-8.84347e-07 11.7018C-4.68193e-07 16.462 1.81098 20.7873 4.72864 23.9211C7.6463 27.0549 11.6733 29 16.1052 29L27 29L27 17.2982C27 12.538 25.189 8.21269 22.2714 5.07891C19.3537 1.94513 15.3267 1.02051e-06 10.8948 1.40797e-06ZM5.81894 6.24998L10.8948 6.24998C13.7204 6.24998 16.2913 7.49388 18.1571 9.49784C20.0229 11.5018 21.181 14.2632 21.181 17.2981L21.181 22.7499L16.1052 22.7499C13.2795 22.7499 10.7086 21.506 8.84281 19.5021C6.97706 17.4981 5.81894 14.7367 5.81894 11.7018L5.81894 6.24998Z' fill='%231A7440'/%3E%3C/svg%3E%0A");
+            width: 27px;
+            height: 29px;
+            left: 0;
+         }
+      }
+      // .reasons__img
+      &__img {
+         width: 100%;
+         img {
+            width: 100%;
+         }
+      }
+   }
+
+   @media (max-width: 425px) {
+      .reasons {
+         // .reasons__container
+         margin-bottom: 40px;
+         &__container {
+         }
+
+         // .reasons__content
+
+         &__content {
+         }
+
+         // .reasons__title
+
+         &__title {
+            margin-bottom: 20px;
+            //styleName: Заголовок 2;
+            font-family: var(--font-title);
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 30.8px;
+            text-align: left;
+         }
+
+         // .reasons__block
+
+         &__block {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+         }
+
+         // .reasons__list
+
+         &__list {
+            width: 296px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            //flex: 1;
+         }
+
+         // .reasons__item
+
+         &__item {
+            position: relative;
+            display: flex;
+            align-items: center;
+            //styleName: основной;
+            font-family: var(--font-accent);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27.2px;
+            text-align: left;
+            gap: 15px;
+            &:before {
+               content: url("data:image/svg+xml,%3Csvg width='27' height='29' viewBox='0 0 27 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.8948 1.40797e-06L-1.90735e-06 2.36042e-06L-8.84347e-07 11.7018C-4.68193e-07 16.462 1.81098 20.7873 4.72864 23.9211C7.6463 27.0549 11.6733 29 16.1052 29L27 29L27 17.2982C27 12.538 25.189 8.21269 22.2714 5.07891C19.3537 1.94513 15.3267 1.02051e-06 10.8948 1.40797e-06ZM5.81894 6.24998L10.8948 6.24998C13.7204 6.24998 16.2913 7.49388 18.1571 9.49784C20.0229 11.5018 21.181 14.2632 21.181 17.2981L21.181 22.7499L16.1052 22.7499C13.2795 22.7499 10.7086 21.506 8.84281 19.5021C6.97706 17.4981 5.81894 14.7367 5.81894 11.7018L5.81894 6.24998Z' fill='%231A7440'/%3E%3C/svg%3E%0A");
+               width: 27px;
+               height: 29px;
+               left: 0;
+            }
+
+            // .reasons__img
+
+            &__img {
+               width: 570px;
+               //flex: 1;
+            }
+         }
+      }
+   }
+}

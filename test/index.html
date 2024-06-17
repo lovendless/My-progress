@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="styles/style.css">
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=bea7784f-0fc9-46f8-8cec-8f386f19813b&lang=ru_RU"
+      type="text/javascript">
+      </script>
+   <title>Test</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container container">
+            <div class="header__content">
+               <button class="header__menu">
+                  <span class="header__burger"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main id="main">
+         <nav class="breadcrumbs container">
+            <ul class="breadcrumbs__list">
+               <li class="breadcrumbs__item">
+                  <a href="#" class="breadcrumbs__link active">Главная</a>
+               </li>
+               <li class="breadcrumbs__item">
+                  <a href="#" class="breadcrumbs__link">Коттеджи</a>
+               </li>
+            </ul>
+         </nav>
+         <section class="catalog container">
+
+            <div class="catalog__content">
+               <h2 class="catalog__title">
+                  Коттеджи от 21 369 ₽/мес.
+               </h2>
+               <ul class="catalog__list">
+                  <li class="catalog__card">
+                     <div class="card__gallery">
+                        <div class="card__img active">
+                           <div class="ready-layer active"><span>Дом готов</span></div>
+                           <img src="./img/ea8f19bb94d997f4ba97f18ec59e1f16.jpg" alt="Коттедж">
+                        </div>
+                        <div class="card__img disabled">
+                           <div class="ready-layer active"><span>Дом готов</span></div>
+                           <img src="./img/cottage2.jpg" alt="Коттедж">
+                        </div>
+                        <div class="card__img disabled">
+                           <div class="ready-layer active"><span>Дом готов</span></div>
+                           <img src="./img/reasons.png" alt="Коттедж">
+                        </div>
+                        <div class="card__dots">
+                        </div>
+                     </div>
+                     <h3 class="card__title">
+                        Коттедж 87 м<sup>2</sup>
+                     </h3>
+                     <h4 class="card__price">
+                        5 200 000 руб.
+                     </h4>
+                     <div class="card__tags">
+                        <ul class="tags__list">
+                           <li class="tags__item">Дом готов</li>
+                           <li class="tags__item">Электрика</li>
+                           <li class="tags__item">Вода</li>
+                           <li class="tags__item">Газ</li>
+                           <li class="tags__item">Участов 8 суток</li>
+                           <li class="tags__item">Асфальт до участка</li>
+                           <li class="tags__item">Ипотека от 3%</li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="catalog__card">
+                     <div class="card__img">
+                        <div class="ready-layer "><span>Дом готов</span></div>
+                        <img src="./img/ea8f19bb94d997f4ba97f18ec59e1f16.jpg" alt="Коттедж">
+                     </div>
+                     <h3 class="card__title">
+                        Коттедж 87 м<sup>2</sup>
+                     </h3>
+                     <h4 class="card__price">
+                        5 200 000 руб.
+                     </h4>
+                     <div class="card__tags">
+                        <ul class="tags__list">
+                           <li class="tags__item">Дом готов</li>
+                           <li class="tags__item">Электрика</li>
+                           <li class="tags__item">Вода</li>
+                           <li class="tags__item">Газ</li>
+                           <li class="tags__item">Участов 8 суток</li>
+                           <li class="tags__item">Асфальт до участка</li>
+                           <li class="tags__item">Ипотека от 3%</li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="catalog__card">
+                     <div class="card__img">
+                        <div class="ready-layer "><span>Дом готов</span></div>
+                        <img src="./img/ea8f19bb94d997f4ba97f18ec59e1f16.jpg" alt="Коттедж">
+                     </div>
+                     <h3 class="card__title">
+                        Коттедж 87 м<sup>2</sup>
+                     </h3>
+                     <h4 class="card__price">
+                        5 200 000 руб.
+                     </h4>
+                     <div class="card__tags">
+                        <ul class="tags__list">
+                           <li class="tags__item">Дом готов</li>
+                           <li class="tags__item">Электрика</li>
+                           <li class="tags__item">Вода</li>
+                           <li class="tags__item">Газ</li>
+                           <li class="tags__item">Участов 8 суток</li>
+                           <li class="tags__item">Асфальт до участка</li>
+                           <li class="tags__item">Ипотека от 3%</li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="catalog__card">
+                     <div class="card__img">
+                        <div class="ready-layer "><span>Дом готов</span></div>
+                        <img src="./img/ea8f19bb94d997f4ba97f18ec59e1f16.jpg" alt="Коттедж">
+                     </div>
+                     <h3 class="card__title">
+                        Коттедж 87 м<sup>2</sup>
+                     </h3>
+                     <h4 class="card__price">
+                        5 200 000 руб.
+                     </h4>
+                     <div class="card__tags">
+                        <ul class="tags__list">
+                           <li class="tags__item">Дом готов</li>
+                           <li class="tags__item">Электрика</li>
+                           <li class="tags__item">Вода</li>
+                           <li class="tags__item">Газ</li>
+                           <li class="tags__item">Участов 8 суток</li>
+                           <li class="tags__item">Асфальт до участка</li>
+                           <li class="tags__item">Ипотека от 3%</li>
+                        </ul>
+                     </div>
+                  </li>
+               </ul>
+               <button class="btn btn--two">
+                  <span>Выбрать на карте</span>
+               </button>
+            </div>
+
+         </section>
+         <section class="vacation">
+            <div class="vacation__container container">
+               <div class="vacation__content">
+                  <h2 class="vacation__title">
+                     Коттеджи для отдыха кругый год
+                  </h2>
+                  <div class="vacation__slider swiper">
+                     <div class="swiper-wrapper">
+                        <div class="vacation__card swiper-slide">
+                           <div class="card__img">
+                              <img src="./img/cottage2.jpg" alt="cottage">
+                           </div>
+                           <div class="card__description">
+                              <p class="card__text">
+                                 Застройщик ООО 1D специализируется на возведении комфортных загородных
+                                 домов. Архитекторы
+                                 и дизайнеры отслеживают мировые тренды строительства и умело адаптируют их в Сибири.
+                              </p>
+                              <p class="card__text">
+                                 Панорамное остекление домов с погружением жителей в окружающий природный ландшафт,
+                                 правильное
+                                 соотношение жилых и хозяйственных зон и надёжные материалы строительства, качество
+                                 которых
+                                 не изменяется после холодов — отличительные черты коттеджей от девелопера.
+                              </p>
+
+                           </div>
+                        </div>
+                        <div class="vacation__card swiper-slide">
+                           <div class="card__img">
+                              <img src="./img/cottage2.jpg" alt="cottage">
+                           </div>
+                           <div class="card__description">
+                              <p class="card__text">
+                                 Застройщик ООО 1D специализируется на возведении комфортных загородных
+                                 домов. Архитекторы
+                                 и дизайнеры отслеживают мировые тренды строительства и умело адаптируют их в Сибири.
+                              </p>
+                              <p class="card__text">
+                                 Панорамное остекление домов с погружением жителей в окружающий природный ландшафт,
+                                 правильное
+                                 соотношение жилых и хозяйственных зон и надёжные материалы строительства, качество
+                                 которых
+                                 не изменяется после холодов — отличительные черты коттеджей от девелопера.
+                              </p>
+
+                           </div>
+                        </div>
+                        <div class="vacation__card swiper-slide">
+                           <div class="card__img">
+                              <img src="./img/cottage2.jpg" alt="cottage">
+                           </div>
+                           <div class="card__description">
+                              <p class="card__text">
+                                 Застройщик ООО 1D специализируется на возведении комфортных загородных
+                                 домов. Архитекторы
+                                 и дизайнеры отслеживают мировые тренды строительства и умело адаптируют их в Сибири.
+                              </p>
+                              <p class="card__text">
+                                 Панорамное остекление домов с погружением жителей в окружающий природный ландшафт,
+                                 правильное
+                                 соотношение жилых и хозяйственных зон и надёжные материалы строительства, качество
+                                 которых
+                                 не изменяется после холодов — отличительные черты коттеджей от девелопера.
+                              </p>
+
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="vacation__btns">
+                        <div class="vacation__pagination">
+                           <div class="vacation__navigation">
+                              <button class="prev--btn">
+                                 <svg width="13" height="22" viewBox="0 0 13 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.8994 21L1.99992 11.1005L11.8994 1.20101" stroke="white"
+                                       stroke-width="2" stroke-linecap="round" />
+                                 </svg>
+                              </button>
+                              <button class="next--btn">
+                                 <svg width="14" height="22" viewBox="0 0 14 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.89941 21L11.7989 11.1005L1.89941 1.20101" stroke="white"
+                                       stroke-width="2" stroke-linecap="round" />
+                                 </svg>
+                              </button>
+                           </div>
+                           <div id="numberSlides"></div>
+                        </div>
+                        <button class="vacation__more btn btn--two">
+                           <span>Получить презентацию <span class="screen">на WhatsApp</span></span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="reasons">
+            <div class="reasons__container container">
+               <div class="reasons__content">
+                  <h2 class="reasons__title">
+                     5 причин выбрать дома от ООО 1D
+                  </h2>
+                  <div class="reasons__block">
+                     <ul class="reasons__list">
+                        <li class="reasons__item">Лаконичная архитектура в скандинавском стиле</li>
+                        <li class="reasons__item">Экологичные и безопасные материалы для сибирского климата</li>
+                        <li class="reasons__item">Функциональные планировки с удобным зонированием и правильной
+                           геометрией комнат</li>
+                        <li class="reasons__item">Панорамные окна, видовые комнаты и максимум естественного света в
+                           домах</li>
+                        <li class="reasons__item">Срок строительства – всего 60 дней</li>
+                     </ul>
+                     <div class="reasons__img">
+                        <img src="./img/reasons.png" alt="reasons-cottage">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="yandex-map">
+            <div id="map" style="width: 100vw; height: 460px"></div>
+         </section>
+         <section class="feedback">
+            <div class="feedback__container">
+               <div class="feedback__content">
+                  <h2 class="feedback__title">50 минут до <br>м. Заельцовская</h2>
+                  <h3 class="feedback__postscript">Записывайтесь на экскурсию</h3>
+                  <form action="#" class="feedback__form">
+                     <div class="feedback__inputs">
+                        <input type="text" class="feedback__name" name="name" required placeholder="Ваше имя">
+                        <input type="tel" class="feedback__phone" name="phone" required placeholder="Телефон">
+                        <button type="submit" class="feedback__btn btn btn--one"><span>Оставить заявку</span></button>
+                     </div>
+                     <div class="feedback__terms">
+                        <input type="checkbox" id="terms" required name="terms" />
+                        <label for="terms">Я соглашаюсь <a href="#">с правилами пользовательского соглашения</a></label>
+                     </div>
+                  </form>
+               </div>
+               <div class="feedback__layer--first">
+               </div>
+               <div class="feedback__layer--second">
+               </div>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="footer__container container">
+               <div class="footer__content">
+                  <button class="footer__btn btn btn--one">
+                     <span>Записаться на показ</span>
+                  </button>
+                  <div class="footer__info">
+                     <a href="+tel:73833838022" class="footer__phone">8 (383) 383-80-22</a>
+                     <a href="#" class="footer__terms">Правила пользовательского соглашения</a>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <div class="sign"></div>
+      </main>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
